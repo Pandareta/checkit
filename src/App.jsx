@@ -1,5 +1,5 @@
-import Sidebar from "./layout/sidebar.jsx";
-import Topbar from "./layout/topbar.jsx";
+import Sidebar from "./layout/Sidebar.jsx";
+import Topbar from "./layout/Topbar.jsx";
 import { UIProvider } from "./hooks/UIContext.jsx";
 import { OrdersProvider } from "./hooks/OrdersContext.jsx";
 import { Route, Routes } from "react-router-dom";
