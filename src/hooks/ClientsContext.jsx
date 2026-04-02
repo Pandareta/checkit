@@ -58,5 +58,6 @@ export default function ClientsProvider({ children }) {
 }
 
 export function useClients() {
+  console.log("useClients called, clients name: " + INITIAL_CLIENTS[0].name);
   return useContext(ClientsContext);
 }

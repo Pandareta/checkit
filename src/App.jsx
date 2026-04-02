@@ -9,6 +9,7 @@ import DashboardPage from "./components/Dashboard.jsx";
 import OrderDetailPage from "./pages/OrderDetailPage.jsx";
 import  ClientsProvider  from "./hooks/ClientsContext.jsx";
 import ClientsPage from "./pages/ClientsPage.jsx";
+import Data from "./dataBase/data.jsx";
 export default function App() {
   return (
     <>
@@ -30,6 +31,7 @@ export default function App() {
                   <Route path="/dashboard" element={<DashboardPage />} />
                   <Route path="/orders/:id" element={<OrderDetailPage />} />
                   <Route path="/clients" element={<ClientsPage />} />
+                  <Route path="/data" element={<Data />} />
                 </Routes>
               </main>
             </div>
